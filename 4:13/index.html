@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>New York Times Search</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../4:13/assets/style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container text-center">
+        <h1 class="display-4">New York Times Search</h1>
+      </div>
+    </div>
+    <div class="card"> 
+      <div class="card-body"> 
+        <div class="card-title">Search Parameters</div> 
+        <div class="card-text"> 
+          <form>
+            <div class="form-group">
+              <label for="searching">Search Term:</label>
+              <input type="text" class="form-control" id="search-term">
+            </div>
+            <div class="form-group">
+              <label for="searching">Numbers of Records to Retrieve:</label>
+              <input type="text" class="form-control" id="records">
+            </div>
+            <div class="form-group">
+              <label for="searching">Start Year (Optional):</label>
+              <input type="text" class="form-control" id="startYear">
+            </div>
+            <div class="form-group">
+                <label for="searching">End Year (Optional):</label>
+                <input type="text" class="form-control" id="endYear">
+              </div>
+            <button type="submit" class="btn btn-primary">Search</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    </div> 
+  </div> 
+  <script src="assets/api.js"></script>
+</body>
+</html>
